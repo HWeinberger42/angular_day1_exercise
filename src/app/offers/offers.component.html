@@ -1,1 +1,20 @@
-<p>offers works!</p>
+<div id="offersWrapper">
+    <div class="container">
+        <div class="row row-cols-sm-1 row-cols-lg-2 row-cols-xl-2 row-cols-xxl-2" id="offerElements">
+            @for (offerUrl of assetUrl; track $index) {
+                <div class="card" style="width: 18rem;">
+                    <img src={{offerUrl}} class="card-img-top" alt={{offerUrl}}>
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- @for (x of array; track $index) {
+    <p>{{x}} {{$index }}</p>
+} -->
