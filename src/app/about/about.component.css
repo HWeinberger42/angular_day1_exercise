@@ -1,0 +1,35 @@
+#aboutWrapper {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+h1 {
+    padding-top: 3%;
+    text-shadow: 2px 1px rgb(167, 167, 167);
+}
+
+hr {
+    /* size: 10px; */
+    width: 92vw;
+    margin-inline: auto;
+}
+
+p {
+    text-align:justify;
+    padding-inline: 4vw;
+    padding-top: 3%;
+    text-shadow: 2px 1px rgb(167, 167, 167);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0);
+    text-shadow: 2px 1px rgb(167, 167, 167);
+    box-shadow: 2px 1px rgb(167, 167, 167);
+    text-align: center;
+    padding: .5rem .5rem;
+    align-self: center;
+    margin-block: 4%;
+}
